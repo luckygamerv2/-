@@ -158,12 +158,11 @@ client.on("message", async message => {
             .setThumbnail(message.author.avatarURL)
             .setDescription(`**__برودكاست بوت | Version 1.1__ 
 
-            برودكاست عادي : i!{prefix}bc
-            دعوة البوت لسيرفرك : i!{prefix}invite
-            معلومات عن السيرفر : i!{prefix}server
-            برودكاست للأونلاين فقط : i!{prefix}bco
-            يعرض لك عدد المتبندين من سيرفرك : i!{prefix}banned
-            رابط سيرفر الدعم الفني : https://discord.gg/YEXcDXt 
+            برودكاست عادي : /{prefix}bc
+            دعوة البوت لسيرفرك : /{prefix}invite
+            معلومات عن السيرفر : /{prefix}server
+            برودكاست للأونلاين فقط : /{prefix}bco
+            يعرض لك عدد المتبندين من سيرفرك : i!{prefix}banned 
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }

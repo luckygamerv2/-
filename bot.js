@@ -9,7 +9,7 @@ client.on("ready", async() => {
 console.log(`Back Online In ${client.guilds.size} Servers!`);
 console.log(`https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8\nInvite Me To Your Server!`);
     setTimeout(() => {
-        client.user.setActivity(`ROYAL SERVER`, {type: "WATCHING"});
+        client.user.setGame(`ROYAL SHOP`,"http://twitch.tv/S-F")
     }, 3000);
 });
 
